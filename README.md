@@ -10,7 +10,7 @@
   <a href="https://github.com/diptarupdasgit">
     <img src="https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github"/>
   </a>
-  <a href="https://www.linkedin.com/">
+  <a href="www.linkedin.com/in/diptarupdas">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin"/>
   </a>
 </p>
