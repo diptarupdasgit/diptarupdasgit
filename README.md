@@ -3,7 +3,7 @@
 <h3 align="center">Azure Data Engineer | PySpark | Databricks | Azure Data Factory</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=750&lines=Building+Scalable+Data+Pipelines;Azure+Data+Engineering+Enthusiast;PySpark+%7C+Databricks+%7C+SQL+%7C+Python;Transforming+Raw+Data+into+Insights" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=750&lines=Building+Scalable+Data+Pipelines;Azure+Data+Engineering+Professional;PySpark+%7C+Databricks+%7C+SQL+%7C+Python;Transforming+Raw+Data+into+Business+Insights" />
 </p>
 
 <p align="center">
@@ -13,28 +13,26 @@
   <a href="https://github.com/diptarupdasgit">
     <img src="https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github"/>
   </a>
-  <a href="mailto:dasdiptarup669@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail"/>
-  </a>
 </p>
 
 ---
 
 ## 🚀 About Me
 
-I'm an **Azure Data Engineer with 5 years of professional experience**, passionate about building scalable, reliable and efficient data engineering solutions.
+I'm an **Azure Data Engineer with 5 years of professional experience**, currently working at **Tata Consultancy Services (TCS)**.
 
-My experience revolves around developing data pipelines, implementing ETL/ELT workflows, transforming large datasets and optimizing cloud-based data platforms using Microsoft Azure technologies.
+I specialize in building scalable data pipelines, developing ETL/ELT solutions, optimizing distributed data processing and implementing modern cloud-based data engineering architectures.
 
-- 💼 Working at **Tata Consultancy Services (TCS)**
-- ☁️ Specialized in Azure Data Engineering.
-- ⚡ Hands-on experience with Azure Data Factory, Databricks and PySpark.
-- 🐍 Strong working knowledge of Python and SQL.
-- 🏗️ Experience with Medallion Architecture and Delta Lake.
-- 🔄 Exploring workflow orchestration with Apache Airflow.
-- 🎯 Interested in building scalable, production-ready data platforms.
+My experience includes working on enterprise data engineering initiatives involving Azure Data Factory, Azure Databricks, PySpark, ADLS Gen2, Delta Lake and Apache Airflow.
 
-**My engineering philosophy:** Build reliable pipelines, write optimized code, automate repetitive processes and make data useful for business decisions.
+- 💼 Professional Experience: Tata Consultancy Services (TCS)
+- ☁️ Cloud Platform: Microsoft Azure
+- ⚡ Big Data: Apache Spark, PySpark, Databricks
+- 🔄 Data Integration: Azure Data Factory, Apache Airflow
+- 🏗️ Architecture: Medallion Architecture, Delta Lake
+- 🗄️ Data Modeling: Star Schema, SCD Type 2
+- 🔐 Governance: Unity Catalog
+- 🎯 Focus: Scalable, optimized and reliable data platforms
 
 ---
 
@@ -64,83 +62,98 @@ My experience revolves around developing data pipelines, implementing ETL/ELT wo
 <p>
 <img src="https://img.shields.io/badge/Delta_Lake-003366?style=for-the-badge&logo=databricks&logoColor=white"/>
 <img src="https://img.shields.io/badge/Apache_Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white"/>
-<img src="https://img.shields.io/badge/ETL%2FELT-2E8B57?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Medallion_Architecture-CD7F32?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Unity_Catalog-FF3621?style=for-the-badge&logo=databricks&logoColor=white"/>
+<img src="https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white"/>
+<img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
 </p>
 
-### 🛠️ Tools & Other Technologies
+### 🛠️ Development & Tools
 
 <p>
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-<img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-<img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
+<img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white"/>
 </p>
 
 ---
 
-## 🏗️ Data Engineering Architecture
+# 💼 Professional Experience – TCS
 
-My preferred approach to building modern data pipelines follows the Medallion Architecture.
+## 1. Enterprise Sales Analytics Platform
+
+**Environment:** Azure Cloud
+
+**Technology Stack:** Azure Data Factory | Azure Databricks | ADLS Gen2 | Delta Lake | Apache Airflow | Unity Catalog | Power BI
+
+Designed and implemented enterprise-scale data engineering workflows to support sales analytics and business reporting.
+
+**Key Contributions:**
+
+- Designed end-to-end Big Data Architecture using Azure Data Factory, Azure Databricks, ADLS Gen2 and Delta Lake, following Medallion Architecture (Bronze, Silver and Gold).
+- Developed metadata-driven ADF pipelines with dynamic parameterization to support reusable and scalable data ingestion.
+- Orchestrated data workflows using Apache Airflow DAGs and Databricks Workflows integrated with Azure Data Factory.
+- Built PySpark notebooks for data cleansing, transformation, aggregation and implementation of business logic.
+- Implemented watermark-based incremental loading to process only newly added or modified records.
+- Implemented Slowly Changing Dimension Type 2 (SCD Type 2) to maintain historical data changes.
+- Designed Star Schema with Fact and Dimension tables using surrogate keys for analytical reporting.
+- Delivered curated datasets to Power BI and managed data governance and access security through Unity Catalog.
+
+**Architecture:**
 
 ```mermaid
-flowchart LR
-    A["📂 Data Sources<br/>CSV · JSON · SQL · APIs"]
-    B["⚙️ Azure Data Factory<br/>Data Ingestion"]
-    C[("🥉 Bronze Layer<br/>Raw Data")]
-    D[("🥈 Silver Layer<br/>Cleaned & Validated")]
-    E[("🥇 Gold Layer<br/>Business Aggregations")]
-    F["📊 Power BI<br/>Analytics & Reporting"]
+flowchart TD
+    A["Enterprise Data Sources"] --> B["Azure Data Factory"]
+    B --> C["ADLS Gen2 - Bronze"]
+    C --> D["Azure Databricks - PySpark"]
+    D --> E["Delta Lake - Silver"]
+    E --> F["Business Transformations"]
+    F --> G["Delta Lake - Gold"]
+    G --> H["Star Schema"]
+    H --> I["Power BI"]
 
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> F
-
-    G["⚡ Azure Databricks<br/>PySpark · Spark SQL"]
-    G -.-> D
-    G -.-> E
+    J["Apache Airflow"] -.-> B
+    J -.-> D
+    K["Unity Catalog"] -.-> E
+    K -.-> G
 ```
 
-**Key engineering concepts:**
+## 2. SAS to Python Migration – Enterprise Cost Optimization
 
-- Incremental data loading and watermark-based processing.
-- Data cleansing, validation and transformation.
-- Slowly Changing Dimensions (SCD Type 1 and Type 2).
-- Delta Lake and ACID transactions.
-- Spark performance optimization.
-- Data orchestration and workflow monitoring.
-- Data governance using Unity Catalog.
+**Environment:** Azure Cloud | Azure Databricks
+
+**Technology Stack:** Python | PySpark | Apache Airflow | Azure Databricks
+
+Led the migration of legacy SAS analytics workloads to a modern Python/PySpark-based data processing platform on Azure Databricks, supporting enterprise cost optimization and modernization.
+
+**Key Contributions:**
+
+- Led end-to-end migration of the organization's legacy SAS analytics platform to a Python/PySpark stack on Azure Databricks, orchestrated using Apache Airflow.
+- Rewrote and validated 100+ SAS programs into PySpark equivalents within approximately 3 months, covering batch scheduling and statistical processing logic.
+- Developed a parallel-run data validation framework to compare SAS and Python outputs row by row, ensuring zero regression before production cutover.
+- Supported the modernization of legacy analytical workloads and retirement of SAS licensing and associated infrastructure.
+
+**Business Impact:**
+
+- 💰 Achieved estimated annual cost savings of **$150K–$500K** through SAS licensing and infrastructure cost elimination upon full decommissioning.
+- ⚡ Modernized legacy analytics workloads using Python and PySpark.
+- ✅ Improved migration reliability through parallel execution and data reconciliation.
 
 ---
 
-## 🚀 Featured Projects
+# 🧪 Personal Hands-on Projects
 
-### 1. Azure End-to-End Data Engineering
+These repositories showcase my independent learning, technical experimentation and practical implementation of modern data engineering concepts.
 
-**Technology:** Azure Data Factory | Azure Databricks | ADLS Gen2 | PySpark | Delta Lake | SQL
-
-Building an end-to-end data engineering workflow involving:
-
-- Dynamic ingestion pipelines using Azure Data Factory.
-- Incremental loading and watermark implementation.
-- Bronze, Silver and Gold data processing.
-- Data transformations using PySpark.
-- Delta Lake storage and optimization.
-- SCD Type 2 implementation.
-- Star schema data modeling.
-- Databricks Workflows and Unity Catalog.
-
-### 2. Apache Airflow – Workflow Orchestration
+## 1. Apache Airflow – Workflow Orchestration
 
 **Repository:** [Apache_Airflow](https://github.com/diptarupdasgit/Apache_Airflow)
 
 **Technology:** Python | Apache Airflow | Docker
 
-Hands-on implementation and learning repository covering:
+Hands-on implementation and exploration of workflow orchestration concepts.
+
+**Topics Covered:**
 
 - DAG fundamentals and scheduling.
 - TaskFlow API.
@@ -151,11 +164,13 @@ Hands-on implementation and learning repository covering:
 - Airflow Assets.
 - Workflow orchestration.
 
-### 3. Walmart Data Engineering – dbt & Databricks
+## 2. Walmart Data Engineering – dbt & Databricks
 
 **Technology:** dbt | Databricks | SQL | Python
 
-Practical data transformation project exploring:
+Personal implementation focused on modern data transformation and analytics engineering.
+
+**Topics Covered:**
 
 - dbt project structure and models.
 - SQL-based transformations.
@@ -165,15 +180,40 @@ Practical data transformation project exploring:
 
 ---
 
-## 📜 Certifications & Learning
+## 🏗️ Modern Data Engineering Architecture
 
-- 🏅 Microsoft Azure Fundamentals – AZ-900
-- 📚 Azure Data Engineering
-- ⚡ Apache Spark & PySpark
-- 🔄 Apache Airflow
-- 🏗️ dbt & Modern Data Transformation
+My preferred approach to building modern data platforms follows the Medallion Architecture.
+
+```mermaid
+flowchart LR
+    A["Data Sources<br/>CSV · JSON · SQL · APIs"]
+    B["Azure Data Factory<br/>Ingestion"]
+    C[("Bronze<br/>Raw Data")]
+    D[("Silver<br/>Cleaned Data")]
+    E[("Gold<br/>Business Ready")]
+    F["Power BI<br/>Analytics"]
+
+    A --> B --> C --> D --> E --> F
+    G["Azure Databricks<br/>PySpark · Spark SQL"]
+    G -.-> D
+    G -.-> E
+```
+
+**Core Engineering Concepts:**
+
+- Incremental data loading and watermark processing.
+- Data cleansing, validation and transformation.
+- Slowly Changing Dimensions (SCD Type 1 and Type 2).
+- Delta Lake and ACID transactions.
+- Spark performance optimization.
+- Workflow orchestration and monitoring.
+- Data governance using Unity Catalog.
 
 ---
+
+## 📜 Certifications
+
+- 🏅 Microsoft Azure Fundamentals – AZ-900
 
 ## 📊 GitHub Statistics
 
@@ -188,11 +228,11 @@ Practical data transformation project exploring:
 
 ---
 
-## 🎯 My Career Focus
+## 🎯 Career Focus
 
-I am focused on growing as an Azure Data Engineer, working on scalable cloud data platforms, advanced PySpark transformations, data pipeline optimization and modern data orchestration.
+Continuously building expertise in Azure Data Engineering, distributed data processing, modern data architecture and cloud-based analytics platforms.
 
-**Interested in:** Azure Data Engineer | Databricks Engineer | Big Data Engineer opportunities.
+**Interested in opportunities:** Azure Data Engineer | Databricks Engineer | Big Data Engineer.
 
 ---
 
@@ -200,10 +240,10 @@ I am focused on growing as an Azure Data Engineer, working on scalable cloud dat
 
 <p align="center">
   <a href="https://www.linkedin.com/in/diptarupdas">
-    <img src="https://img.shields.io/badge/LinkedIn-Diptarup_Das-blue?style=for-the-badge&logo=linkedin"/>
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin"/>
   </a>
-  <a href="mailto:dasdiptarup669@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-Contact_Me-red?style=for-the-badge&logo=gmail"/>
+  <a href="https://github.com/diptarupdasgit">
+    <img src="https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github"/>
   </a>
 </p>
 
