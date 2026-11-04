@@ -1,6 +1,6 @@
 # Hi 👋, I'm Diptarup Das
 
-## Azure Data Engineer | TCS | 4.10+ Years of Experience
+## Azure Data Engineer | TCS | 5.2+ Years of Experience
 
 Experienced Data Engineer with 4+ years of expertise in designing, developing, and optimizing scalable ETL/ELT pipelines using Microsoft Azure technologies. Passionate about building cloud-based data platforms, automating data workflows, and delivering reliable analytics solutions.
 
