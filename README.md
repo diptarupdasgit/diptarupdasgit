@@ -19,7 +19,7 @@
 
 ## 🚀 About Me
 
-I'm an **Azure Data Engineer with 5 years of professional experience**, currently working at **Tata Consultancy Services (TCS)**.
+I'm an **Azure Data Engineer with 5.2+ years of professional experience**, currently working at **Tata Consultancy Services (TCS)**.
 
 I specialize in building scalable data pipelines, developing ETL/ELT solutions, optimizing distributed data processing and implementing modern cloud-based data engineering architectures.
 
