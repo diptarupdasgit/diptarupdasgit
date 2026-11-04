@@ -103,7 +103,7 @@ Designed and implemented enterprise-scale data engineering workflows to support 
 
 <p align="center">
   <img
-    src="assets/enterprise_sales_analytics_architecture.gif"
+    src="https://raw.githubusercontent.com/diptarupdasgit/diptarupdasgit/main/assets/enterprise_sales_analytics_architecture.gif"
     width="100%"
     alt="Animated Enterprise Sales Analytics Architecture"
   />
