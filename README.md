@@ -7,11 +7,11 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/diptarupdas">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin"/>
-  </a>
   <a href="https://github.com/diptarupdasgit">
     <img src="https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github"/>
+  </a>
+  <a href="https://www.linkedin.com/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin"/>
   </a>
 </p>
 
@@ -19,11 +19,11 @@
 
 ## 🚀 About Me
 
-I'm an **Azure Data Engineer with 5.2+ years of professional experience**, currently working at **Tata Consultancy Services (TCS)**.
+I'm an **Azure Data Engineer with 5.2 years of professional experience**, currently working at **Tata Consultancy Services (TCS)**.
 
 I specialize in building scalable data pipelines, developing ETL/ELT solutions, optimizing distributed data processing and implementing modern cloud-based data engineering architectures.
 
-My experience includes working on enterprise data engineering initiatives involving Azure Data Factory, Azure Databricks, PySpark, ADLS Gen2, Delta Lake and Apache Airflow.
+My professional experience includes enterprise data engineering initiatives involving Azure Data Factory, Azure Databricks, PySpark, ADLS Gen2, Delta Lake and Apache Airflow.
 
 - 💼 Professional Experience: Tata Consultancy Services (TCS)
 - ☁️ Cloud Platform: Microsoft Azure
@@ -88,24 +88,24 @@ My experience includes working on enterprise data engineering initiatives involv
 
 Designed and implemented enterprise-scale data engineering workflows to support sales analytics and business reporting.
 
-**Key Contributions:**
+### Key Contributions
 
 - Designed end-to-end Big Data Architecture using Azure Data Factory, Azure Databricks, ADLS Gen2 and Delta Lake, following Medallion Architecture (Bronze, Silver and Gold).
 - Developed metadata-driven ADF pipelines with dynamic parameterization to support reusable and scalable data ingestion.
 - Orchestrated data workflows using Apache Airflow DAGs and Databricks Workflows integrated with Azure Data Factory.
 - Built PySpark notebooks for data cleansing, transformation, aggregation and implementation of business logic.
-- Implemented watermark-based incremental loading to process only newly added or modified records.
+- Implemented watermark-based incremental loading to process newly added or modified records.
 - Implemented Slowly Changing Dimension Type 2 (SCD Type 2) to maintain historical data changes.
 - Designed Star Schema with Fact and Dimension tables using surrogate keys for analytical reporting.
 - Delivered curated datasets to Power BI and managed data governance and access security through Unity Catalog.
 
-### Enterprise Sales Analytics – Architecture
+### Architecture – Animated Data Pipeline
 
 <p align="center">
   <img
     src="assets/enterprise_sales_analytics_architecture.gif"
     width="100%"
-    alt="Animated Azure Data Engineering Architecture"
+    alt="Animated Enterprise Sales Analytics Architecture"
   />
 </p>
 
@@ -117,14 +117,14 @@ Designed and implemented enterprise-scale data engineering workflows to support 
 
 Led the migration of legacy SAS analytics workloads to a modern Python/PySpark-based data processing platform on Azure Databricks, supporting enterprise cost optimization and modernization.
 
-**Key Contributions:**
+### Key Contributions
 
 - Led end-to-end migration of the organization's legacy SAS analytics platform to a Python/PySpark stack on Azure Databricks, orchestrated using Apache Airflow.
 - Rewrote and validated 100+ SAS programs into PySpark equivalents within approximately 3 months, covering batch scheduling and statistical processing logic.
 - Developed a parallel-run data validation framework to compare SAS and Python outputs row by row, ensuring zero regression before production cutover.
-- Supported the modernization of legacy analytical workloads and retirement of SAS licensing and associated infrastructure.
+- Supported modernization of legacy analytical workloads and retirement of SAS licensing and associated infrastructure.
 
-**Business Impact:**
+### Business Impact
 
 - 💰 Achieved estimated annual cost savings of **$150K–$500K** through SAS licensing and infrastructure cost elimination upon full decommissioning.
 - ⚡ Modernized legacy analytics workloads using Python and PySpark.
@@ -138,13 +138,13 @@ These repositories showcase my independent learning, technical experimentation a
 
 ## 1. Apache Airflow – Workflow Orchestration
 
-**Repository:** [Apache_Airflow](https://github.com/diptarupdasgit/Apache_Airflow)
+**Repository:** [Apache_Airflow](https://github.com/diptarup669/Apache_Airflow)
 
 **Technology:** Python | Apache Airflow | Docker
 
 Hands-on implementation and exploration of workflow orchestration concepts.
 
-**Topics Covered:**
+### Topics Covered
 
 - DAG fundamentals and scheduling.
 - TaskFlow API.
@@ -161,7 +161,7 @@ Hands-on implementation and exploration of workflow orchestration concepts.
 
 Personal implementation focused on modern data transformation and analytics engineering.
 
-**Topics Covered:**
+### Topics Covered
 
 - dbt project structure and models.
 - SQL-based transformations.
@@ -176,21 +176,30 @@ Personal implementation focused on modern data transformation and analytics engi
 My preferred approach to building modern data platforms follows the Medallion Architecture.
 
 ```mermaid
-flowchart LR
+flowchart TD
     A["Data Sources<br/>CSV · JSON · SQL · APIs"]
-    B["Azure Data Factory<br/>Ingestion"]
-    C[("Bronze<br/>Raw Data")]
-    D[("Silver<br/>Cleaned Data")]
-    E[("Gold<br/>Business Ready")]
-    F["Power BI<br/>Analytics"]
+    B["Azure Data Factory<br/>Data Ingestion"]
+    C[("Bronze Layer<br/>Raw Data")]
+    D[("Silver Layer<br/>Cleaned & Validated Data")]
+    E[("Gold Layer<br/>Business Ready Data")]
+    F["Power BI<br/>Analytics & Reporting"]
 
-    A --> B --> C --> D --> E --> F
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+
     G["Azure Databricks<br/>PySpark · Spark SQL"]
     G -.-> D
     G -.-> E
+
+    H["Apache Airflow<br/>Workflow Orchestration"]
+    H -.-> B
+    H -.-> G
 ```
 
-**Core Engineering Concepts:**
+### Core Engineering Concepts
 
 - Incremental data loading and watermark processing.
 - Data cleansing, validation and transformation.
@@ -205,6 +214,8 @@ flowchart LR
 ## 📜 Certifications
 
 - 🏅 Microsoft Azure Fundamentals – AZ-900
+
+---
 
 ## 📊 GitHub Statistics
 
@@ -223,18 +234,22 @@ flowchart LR
 
 Continuously building expertise in Azure Data Engineering, distributed data processing, modern data architecture and cloud-based analytics platforms.
 
-**Interested in opportunities:** Azure Data Engineer | Databricks Engineer | Big Data Engineer.
+**Interested in opportunities:**
+
+- Azure Data Engineer
+- Databricks Engineer
+- Big Data Engineer
 
 ---
 
 ## 🤝 Let's Connect
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/diptarupdas">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin"/>
-  </a>
   <a href="https://github.com/diptarupdasgit">
     <img src="https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github"/>
+  </a>
+  <a href="https://www.linkedin.com/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin"/>
   </a>
 </p>
 
