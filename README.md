@@ -99,13 +99,11 @@ Designed and implemented enterprise-scale data engineering workflows to support 
 - Designed Star Schema with Fact and Dimension tables using surrogate keys for analytical reporting.
 - Delivered curated datasets to Power BI and managed data governance and access security through Unity Catalog.
 
-### Architecture – Animated Data Pipeline
-
 <p align="center">
   <img
     src="https://raw.githubusercontent.com/diptarupdasgit/diptarupdasgit/main/assets/enterprise_sales_analytics_architecture.gif"
     width="100%"
-    alt="Animated Enterprise Sales Analytics Architecture"
+    alt="Enterprise Sales Analytics Architecture"
   />
 </p>
 
