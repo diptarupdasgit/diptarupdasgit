@@ -99,24 +99,15 @@ Designed and implemented enterprise-scale data engineering workflows to support 
 - Designed Star Schema with Fact and Dimension tables using surrogate keys for analytical reporting.
 - Delivered curated datasets to Power BI and managed data governance and access security through Unity Catalog.
 
-**Architecture:**
+### Enterprise Sales Analytics – Architecture
 
-```mermaid
-flowchart TD
-    A["Enterprise Data Sources"] --> B["Azure Data Factory"]
-    B --> C["ADLS Gen2 - Bronze"]
-    C --> D["Azure Databricks - PySpark"]
-    D --> E["Delta Lake - Silver"]
-    E --> F["Business Transformations"]
-    F --> G["Delta Lake - Gold"]
-    G --> H["Star Schema"]
-    H --> I["Power BI"]
-
-    J["Apache Airflow"] -.-> B
-    J -.-> D
-    K["Unity Catalog"] -.-> E
-    K -.-> G
-```
+<p align="center">
+  <img
+    src="assets/enterprise_sales_analytics_architecture.gif"
+    width="100%"
+    alt="Animated Azure Data Engineering Architecture"
+  />
+</p>
 
 ## 2. SAS to Python Migration – Enterprise Cost Optimization
 
