@@ -99,13 +99,9 @@ Designed and implemented enterprise-scale data engineering workflows to support 
 - Designed Star Schema with Fact and Dimension tables using surrogate keys for analytical reporting.
 - Delivered curated datasets to Power BI and managed data governance and access security through Unity Catalog.
 
-<p align="center">
-  <img
-    src="https://raw.githubusercontent.com/diptarupdasgit/diptarupdasgit/main/assets/enterprise_sales_analytics_architecture.gif"
-    width="100%"
-    alt="Enterprise Sales Analytics Architecture"
-  />
-</p>
+## Enterprise Sales Analytics Architecture
+
+![Enterprise Sales Analytics Architecture](./enterprise_sales_analytics_architecture.gif)
 
 ## 2. SAS to Python Migration – Enterprise Cost Optimization
 
